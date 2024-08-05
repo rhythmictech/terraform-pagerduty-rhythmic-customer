@@ -17,13 +17,13 @@ Configures PagerDuty for a customer
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_pagerduty"></a> [pagerduty](#requirement\_pagerduty) | ~> 3.9 |
+| <a name="requirement_pagerduty"></a> [pagerduty](#requirement\_pagerduty) | ~> 3.15 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_pagerduty"></a> [pagerduty](#provider\_pagerduty) | 3.9.0 |
+| <a name="provider_pagerduty"></a> [pagerduty](#provider\_pagerduty) | 3.15.1 |
 
 ## Modules
 
