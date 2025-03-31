@@ -3,7 +3,8 @@ data "pagerduty_team" "service_delivery" {
 }
 
 resource "pagerduty_business_service" "this" {
-  name        = var.name
-  description = var.description
-  team        = data.pagerduty_team.service_delivery.id
+  name             = var.name
+  description      = var.description
+  point_of_contact = var.point_of_contact
+  team             = data.pagerduty_team.service_delivery.id
 }
